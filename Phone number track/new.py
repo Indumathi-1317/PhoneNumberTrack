@@ -16,7 +16,7 @@ print(number_location)
 service_provider = phonenumbers.parse(number)
 print(carrier.name_for_number(service_provider,"en"))
 
-#
+
 geocoder = OpenCageGeocode(Key)
 
 query = str(number_location)
